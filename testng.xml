@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestAll">
+
+    <test name = "Parallel Tests" >
+        <classes>
+           <class name="SmokeClass1"></class>
+            <class name="SmokeClass2"></class>
+       </classes>
+   </test>
+
+</suite>
